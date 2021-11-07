@@ -67,9 +67,9 @@ export default function Home({ posts }) {
 
 export async function getStaticProps() {
   const res = await fetchEntries()
-  
-  const posts = await res.map((p) => {
-    console.log(JSON.stringify(p.fields));
+  //console.log(JSON.stringify(res));
+  const posts = await res.filter(r => r.sys.contentType.sys.id == "post").map((p) => {
+    
     return p.fields
   })
 
