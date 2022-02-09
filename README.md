@@ -7,7 +7,8 @@ This is a [Next.js](https://nextjs.org/) v10.6.0 starter project with [Contentfu
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/longxe/next-contentful-starter&utm_source=github&utm_medium=nextcontentful-cs&utm_campaign=devex)
 
 (If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
-
+## Demo
+Open [https://sharp-bassi-2a77f3.netlify.app/](https://sharp-bassi-2a77f3.netlify.app/) with your browser to see the result.
 ## Getting Started
 
 First, run the development server:
@@ -30,7 +31,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 **Option two:** Manual clone
 
-1. Clone this repo: `git clone https://github.com/cassidoo/next-contentful-starter.git`
+1. Clone this repo: `git clone https://github.com/longxe/next-contentful-starter.git`
 2. Navigate to the directory and run `npm run dev`
 3. Make your changes
 4. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
